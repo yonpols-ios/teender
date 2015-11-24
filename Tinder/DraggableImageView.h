@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  DraggableImageView.h
 //  Tinder
 //
 //  Created by Juan Pablo Marzetti on 11/19/15.
@@ -8,8 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface DraggableImageView : UIView
 
+@property (nonatomic) UIImage *image;
 
 @end
-
